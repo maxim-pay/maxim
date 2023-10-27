@@ -25,6 +25,10 @@ export default function Home() {
       >
         <Hero />
       </Box>
+
+
+
+      
     </CssVarsProvider>
   );
 }
