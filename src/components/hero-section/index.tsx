@@ -6,7 +6,7 @@ import Typography from '@mui/joy/Typography';
 import ArrowForward from '@mui/icons-material/ArrowForward';
 import TwoSidedLayout from '../mui/TwoSidedLayout';
 
-export default function HeroLeft02() {
+export default function Hero() {
   return (
     <TwoSidedLayout>
       <Typography color="primary" fontSize="lg" fontWeight="lg">
@@ -86,7 +86,7 @@ export default function HeroLeft02() {
           transform: 'translateX(-50%)',
         }}
       >
-        HeroLeft02
+        Maxim
       </Typography>
     </TwoSidedLayout>
   );

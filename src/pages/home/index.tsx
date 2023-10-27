@@ -1,12 +1,12 @@
-import * as React from 'react';
-import { CssVarsProvider } from '@mui/joy/styles';
+import * as React from "react";
+import { CssVarsProvider } from "@mui/joy/styles";
 
-import Box from '@mui/joy/Box';
-import CssBaseline from '@mui/joy/CssBaseline';
+import Box from "@mui/joy/Box";
+import CssBaseline from "@mui/joy/CssBaseline";
 
-import { ColorSchemeToggle } from '../../mui/ColorSchemeToggle'
-import framesxTheme from '../../theme';
-
+import ColorSchemeToggle from "../../components/mui/ColorSchemeToggle";
+import framesxTheme from "../../theme";
+import Hero from "../../components/hero-section";
 
 export default function Home() {
   return (
@@ -15,15 +15,15 @@ export default function Home() {
       <ColorSchemeToggle />
       <Box
         sx={{
-          height: '100vh',
-          overflowY: 'scroll',
-          scrollSnapType: 'y mandatory',
-          '& > div': {
-            scrollSnapAlign: 'start',
+          height: "100vh",
+          overflowY: "scroll",
+          scrollSnapType: "y mandatory",
+          "& > div": {
+            scrollSnapAlign: "start",
           },
         }}
       >
-
+        <Hero />
       </Box>
     </CssVarsProvider>
   );
