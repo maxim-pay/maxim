@@ -4,7 +4,7 @@ import Box from '@mui/joy/Box';
 import Container from '@mui/joy/Container';
 import { typographyClasses } from '@mui/joy/Typography';
 
-export default function TwoSidedLayout({
+export default function HeroLayout({
   children,
   reversed,
 }: React.PropsWithChildren<{ reversed?: boolean }>) {

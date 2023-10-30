@@ -4,11 +4,13 @@ import Button from '@mui/joy/Button';
 import Input from '@mui/joy/Input';
 import Typography from '@mui/joy/Typography';
 import ArrowForward from '@mui/icons-material/ArrowForward';
-import TwoSidedLayout from '../mui/TwoSidedLayout';
+import HeroLayout from '../mui/TwoSidedLayout';
 
 export default function Hero() {
+
+  
   return (
-    <TwoSidedLayout>
+    <HeroLayout>
       <Typography color="primary" fontSize="lg" fontWeight="lg">
         The power to do more
       </Typography>
@@ -88,6 +90,6 @@ export default function Hero() {
       >
         Maxim
       </Typography>
-    </TwoSidedLayout>
+    </HeroLayout>
   );
 }
