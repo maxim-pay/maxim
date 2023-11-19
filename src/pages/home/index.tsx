@@ -1,6 +1,5 @@
 import * as React from "react";
 import { CssVarsProvider } from "@mui/joy/styles";
-
 import Box from "@mui/joy/Box";
 import CssBaseline from "@mui/joy/CssBaseline";
 
@@ -25,10 +24,6 @@ export default function Home() {
       >
         <Hero />
       </Box>
-
-
-
-      
     </CssVarsProvider>
   );
 }

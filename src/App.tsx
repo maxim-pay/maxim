@@ -1,10 +1,9 @@
 import React from "react";
 import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
-
 import Home from "./pages/home";
 import Page404 from "./pages/PageNotFound";
 
-function App() {
+function App () {
   return (
     <div>
       <React.StrictMode>
